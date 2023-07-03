@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+
+            android:title="Bắt đầu mơi" />
+
+        <item android:id="@+id/Quytac"
+
+            android:title="Quy tắc" />
+
+        <item android:id="@+id/Gioithieu"
+
+            android:title="Giới thiệu" />
+
+    </group>
+
+    <item android:title="Cài đặt"
+        >
+        <menu>
+            <item android:id="@+id/Amthanh"
+
+                android:title="Âm thanh" />
+
+            <item android:id="@+id/Reset"
+
+                android:title="Reset" />
+        </menu>
+    </item>
+</menu>
